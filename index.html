@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <h1>Calculator</h1>
+    <div class="main">
+        <input type="text" name="box" class="input" id="val">
+        <div class="button">
+            <input type="button" class="btn" value="1" onclick="inp(value)">
+            <input type="button" class="btn" value="2" onclick="inp(value)">
+            <input type="button" class="btn" value="3" onclick="inp(value)">
+            <input type="button" class="btn" id="opp" value="+" onclick="inp(value)">
+            <input type="button" class="btn" value="4" onclick="inp(value)">
+            <input type="button" class="btn" value="5" onclick="inp(value)">
+            <input type="button" class="btn" value="6" onclick="inp(value)">
+            <input type="button" class="btn" id="opp" value="-" onclick="inp(value)">
+            <input type="button" class="btn" value="7" onclick="inp(value)">
+            <input type="button" class="btn" value="8" onclick="inp(value)">
+            <input type="button" class="btn" value="9" onclick="inp(value)">
+            <input type="button" class="btn" id="opp" value="*" onclick="inp(value)">
+            <input type="button" class="btn" id="opp" value="C" onclick="clr()">
+            <input type="button" class="btn" value="0" onclick="zero()">
+            <input type="button" class="btn" id="opp" value="/" onclick="inp(value)">
+            <input type="button" class="btn" id="opp" value="=" onclick="equate()">
+        </div>
+    </div>
+    <footer class="footer"><i>Made by Ayushi Poddar </i></footer>
+</body>
+</html>
