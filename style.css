@@ -16,7 +16,7 @@ h1 {
 }
 
 .main {
-    background-color: #db6892;
+    background-color: rgb(214, 213, 213);
     width: 280px;
     border: 3px solid black;
     border-radius: 11px;
@@ -30,7 +30,7 @@ h1 {
     justify-content: right;
     flex-wrap: wrap;
     padding: 3%;
-    background-color: rgb(126, 107, 107);
+    background-color: rgb(255, 255, 255);
     width: 230px;
     height: 19px;
     margin: 2%;
@@ -41,7 +41,7 @@ h1 {
 }
 
 .button {
-    background-color: rgb(241, 220, 220);
+    background-color: rgb(214, 213, 213);
     justify-content: center;
     padding: 5px;
     flex-wrap: wrap;
@@ -54,7 +54,7 @@ h1 {
 .btn {
     border: 2px solid black;
     margin: 2px;
-    background-color:#db6892;
+    background-color:#efea94;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
@@ -69,12 +69,12 @@ h1 {
 }
 
 #opp:hover {
-    box-shadow:0 0 10px 0 #f76cb4;
+    box-shadow:0 0 10px 0 ;
     font-size: 275%;
 }
 
 #opp {
-    background-color: #ef9b91;
+    background-color: #ff8103;
 }
 footer{
     margin-left : 670px;
